@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.letter {
+  width: 14%;
+  text-align: center;
+  font-size: 11vw;
+}
+
+.sentence {
+  font-size: 8vw;
+  padding-right: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex-center {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.gold {
+  color: gold;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.pink {
+  color: violet;
+}
+
+.orange {
+  color: orange;
+}
+
+.type-bar {
+  text-align: center;
+  margin: 10px 0;
+  width: 90%;
+  border-bottom: 2px dashed #333;
+  height: 11vw;
+  font-size: 10vw;
+  display: flex;
+  align-items: end;
+}
+
+.clear-icon {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 7vw;
+  color: red;
+}
+
+.suggestions {
+  min-height: 5vw;
+  overflow: scroll;
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  font-size: 4vw;
+}
+
+.suggestion {
+  background: rgb(214, 245, 255);
+  border-radius: 5px;
+  margin: 0 6px;
+  padding: 3px;
+}
+
+.clickable > img {
+  margin: 6px;
+}
+
+.backdrop {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.people-dialog {
+  background: white;
+}
+
+.back-btn {
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 10px;
+  font-size: 7vw;
+}

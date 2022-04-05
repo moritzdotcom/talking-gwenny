@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Talking Gwenny</title>
+</head>
+<body>
+  <div class="flex flex-center relative">
+    <div class="type-bar letters"></div>
+    <div class="clickable clear-icon" data-action="clear">&times;</div>
+  </div>
+  <div class="suggestions"></div>
+  <div class="rows">
+    <div class="row">
+      <div class="col letter gold">1.</div>
+      <div class="col clickable letter red" data-text="A">A</div>
+      <div class="col clickable letter green" data-text="B">B</div>
+      <div class="col clickable letter blue" data-text="C">C</div>
+      <div class="col clickable letter pink" data-text="D">D</div>
+      <div class="col clickable letter orange" data-text="E">E</div>
+    </div>
+    <div class="row">
+      <div class="col letter gold">2.</div>
+      <div class="col clickable letter red" data-text="F">F</div>
+      <div class="col clickable letter green" data-text="G">G</div>
+      <div class="col clickable letter blue" data-text="H">H</div>
+      <div class="col clickable letter pink" data-text="I">I</div>
+      <div class="col clickable letter orange" data-text="J">J</div>
+    </div>
+    <div class="row">
+      <div class="col letter gold">3.</div>
+      <div class="col clickable letter red" data-text="K">K</div>
+      <div class="col clickable letter green" data-text="L">L</div>
+      <div class="col clickable letter blue" data-text="M">M</div>
+      <div class="col clickable letter pink" data-text="N">N</div>
+      <div class="col clickable letter orange" data-text="O">O</div>
+    </div>
+    <div class="row">
+      <div class="col letter gold">4.</div>
+      <div class="col clickable letter red" data-text="P">P</div>
+      <div class="col clickable letter green" data-text="Q">Q</div>
+      <div class="col clickable letter blue" data-text="R">R</div>
+      <div class="col clickable letter pink" data-text="S">S</div>
+      <div class="col clickable letter orange" data-text="T">T</div>
+    </div>
+    <div class="row">
+      <div class="col letter gold">5.</div>
+      <div class="col clickable letter red" data-text="U">U</div>
+      <div class="col clickable letter green" data-text="V">V</div>
+      <div class="col clickable letter blue" data-text="W">W</div>
+      <div class="col clickable letter pink" data-text="X">X</div>
+      <div class="col clickable letter orange" data-text="Y">Y</div>
+      <div class="col clickable letter" data-text="Z">Z</div>
+    </div>
+    <div class="row">
+      <div class="col letter gold">6.</div>
+      <div class="col clickable letter red" data-text=" ">_</div>
+      <div class="col clickable letter green" data-text="Ä">Ä</div>
+      <div class="col clickable letter blue" data-text="Ö">Ö</div>
+      <div class="col clickable letter pink" data-text="Ü">Ü</div>
+      <div class="col clickable letter orange" data-text="SCH">SCH</div>
+    </div>
+    <div class="row">
+      <div class="col letter gold">7.</div>
+      <div class="col clickable sentence red" data-text="Wissen: " data-action="clear">Ich möchte wissen</div>
+    </div>
+    <div class="row">
+      <div class="col letter gold">8.</div>
+      <div class="col clickable sentence red" data-text="Haben: " data-action="clear">Ich möchte haben</div>
+    </div>
+    <div class="row">
+      <div class="col letter gold">9.</div>
+      <div class="col letter people">👨‍👩‍👦‍👦</div>
+      <a href="./music.html"><div class="col letter">🎼</div></a>
+      <div class="col letter">💋</div>
+    </div>
+  </div>
+  <div class="backdrop">
+    <div class="people-dialog">
+      <div class="rows">
+        <div class="row">
+          <div class="col letter gold">1.</div>
+          <div class="col clickable" data-text="Papa "><img src="./images/reinhard.jpg"/></div>
+          <div class="col clickable" data-text="Jojo "><img src="./images/johannes.jpg"/></div>
+          <div class="col clickable" data-text="Momo "><img src="./images/moritz.jpg"/></div>
+        </div>
+        <div class="row">
+          <div class="col letter gold">2.</div>
+          <div class="col clickable" data-text="Mama "><img src="./images/gwendoline.jpg"/></div>
+          <div class="col clickable" data-text="Sophie "><img src="./images/sophie.jpg"/></div>
+          <div class="col clickable" data-text="Lotti "><img src="./images/charlotte.jpg"/></div>
+        </div>
+        <div class="row">
+          <div class="col letter gold">3.</div>
+          <div class="col clickable" data-text="Luna "><img src="./images/luna.jpg"/></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
