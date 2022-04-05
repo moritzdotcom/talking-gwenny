@@ -103,6 +103,7 @@ a {
 
 .clickable > img {
   margin: 6px;
+  width: 25vw;
 }
 
 .backdrop {
