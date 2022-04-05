@@ -15,7 +15,7 @@ document.querySelectorAll('.clickable').forEach((letter) => {
         } else {
           document.querySelector('.type-bar').style.fontSize = "";
         }
-        const search = document.querySelector('.letters').textContent.split(':')[1] || document.querySelector('.letters').textContent.split(' ').slice(-1)
+        const search = document.querySelector('.letters').textContent.split(' ').slice(-1)
         const suggestions = wordlist.filter((word) => word.match(new RegExp(`^${search}.*`)))
         document.querySelector('.suggestions').innerHTML = suggestions.slice(0, 5).map((sug) => `<div class="suggestion" data-text="${sug}">${sug}</div>`).join('')
         document.querySelectorAll('.suggestion').forEach((sug) => {
