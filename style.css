@@ -72,7 +72,7 @@ a {
   height: 11vw;
   font-size: 10vw;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .clear-icon {

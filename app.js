@@ -22,6 +22,9 @@ document.querySelectorAll('.clickable').forEach((letter) => {
           sug.addEventListener('click', (e) => {
             document.querySelector('.letters').textContent = `${document.querySelector('.letters').textContent.split(' ').slice(0, -1).join(' ')} ${sug.dataset.text} `
             document.querySelector('.suggestions').innerHTML = "";
+            if (document.querySelector('.letters').textContent.length > 13) {
+              document.querySelector('.type-bar').style.fontSize = `${130 / document.querySelector('.letters').textContent.length}vw`
+            }
           })
         })
         break;
