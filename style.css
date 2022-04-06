@@ -122,6 +122,8 @@ a {
 .people-dialog {
   width: 90%;
   background: white;
+  border-radius: 7px;
+  padding: 10px 0;
 }
 
 .back-btn {
