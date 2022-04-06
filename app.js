@@ -35,3 +35,7 @@ document.querySelector('.people').addEventListener('click', (e) => {
     document.querySelector('.backdrop').style.display = 'none';
   })
 })
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
