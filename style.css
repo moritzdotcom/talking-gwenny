@@ -103,7 +103,8 @@ a {
 
 .clickable > img {
   margin: 6px;
-  width: 25vw;
+  width: 23vw;
+  border-radius: 10px;
 }
 
 .backdrop {
@@ -119,6 +120,7 @@ a {
 }
 
 .people-dialog {
+  width: 90%;
   background: white;
 }
 
