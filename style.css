@@ -135,3 +135,22 @@ a {
   border-radius: 10px;
   font-size: 7vw;
 }
+
+@keyframes fallAnimation {
+  from {transform: translateY(0vh);}
+  to {transform: translateY(220vh);}
+}
+
+.falling-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.fallable {
+  transform: translateX(-50%);
+  position: absolute;
+  animation: fallAnimation 2s ease-in normal;
+}

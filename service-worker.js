@@ -6,6 +6,7 @@ const PRECACHE_URLS = [
   'index.html',
   'music.html',
   'feelings.html',
+  'style.css',
   './',
 ];
 
