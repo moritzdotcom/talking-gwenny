@@ -32,10 +32,15 @@ document.querySelectorAll('.clickable').forEach((letter) => {
   })
 })
 
-document.querySelector('.people').addEventListener('click', (e) => {
-  document.querySelector('.backdrop').style.display = 'flex';
-  document.querySelector('.backdrop').addEventListener('click', (e) => {
-    document.querySelector('.backdrop').style.display = 'none';
+document.querySelectorAll('.toggle-modal').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    console.log(btn.dataset.modal)
+    document.querySelector('.backdrop').style.display = 'flex';
+    document.querySelector('.backdrop').addEventListener('click', (e) => {
+      document.querySelector('.backdrop').style.display = 'none';
+      document.querySelector(`.${btn.dataset.modal}`).style.display = 'none'
+    })
+    document.querySelector(`.${btn.dataset.modal}`).style.display = 'block'
   })
 })
 

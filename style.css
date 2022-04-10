@@ -123,11 +123,15 @@ a {
   justify-content: center;
 }
 
-.people-dialog {
+.dialog {
   width: 90%;
   background: white;
   border-radius: 7px;
   padding: 10px 0;
+}
+
+.people-dialog, .number-dialog {
+  display: none;
 }
 
 .back-btn {
